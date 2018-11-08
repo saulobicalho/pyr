@@ -1,4 +1,6 @@
 def consulta_cep(cep):
+    import requests
+    response = requests.get('https://viacep.com.br/ws/70150900/json/')
     print cep
     print __name__
 
