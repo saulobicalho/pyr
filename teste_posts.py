@@ -6,3 +6,4 @@ def consulta_cep(cep):
 
     inf __name__ == '__main__':
         consulta_cep('8788')
+		c
